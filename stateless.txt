@@ -1,0 +1,10 @@
+Stateless: In a stateless system the server does not keep any information about the user between requests. 
+For example, Netflix does not need to remember your last session when you log out it treats each request independently.
+
+Authentication: This refers to verifying the users identity like when Netflix asks for your email and password before allowing you to access your account.
+
+Authorization: This is about checking what the user is allowed to do such as ensuring only premium subscribers can access certain content.
+
+Private APIs: These are internal APIs used by Netflix not accessible to the public and help manage their services.
+
+Public APIs: These are APIs that Netflix might make available to developers allowing them to interact with Netflix's or services.
